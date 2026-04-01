@@ -1,0 +1,384 @@
+:root {
+  --bg: #eef1f3;
+  --panel: #fbfcfd;
+  --line: #c9d2da;
+  --ink: #273748;
+  --muted: #617487;
+  --navy: #10324f;
+  --cyan: #2a607a;
+  --gold: #b88a2d;
+  --yes: #27735a;
+  --yes-bg: #ddf3ea;
+  --no: #aa3e4c;
+  --no-bg: #fde7e9;
+  --info: #2d5478;
+  --info-bg: #e6eef7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(circle at 15% -10%, #d8e3eb 0%, transparent 40%),
+    radial-gradient(circle at 90% 0%, #f0eee4 0%, transparent 35%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-shell {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 16px 16px 108px;
+}
+
+.forum-header {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #f8f9fb 0%, #edf2f5 100%);
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 6px 16px rgba(17, 42, 66, 0.07);
+}
+
+.forum-header h1 {
+  font-family: var(--font-heading), serif;
+  font-size: 33px;
+  line-height: 1.1;
+  color: var(--navy);
+  margin: 10px 0 8px;
+}
+
+.forum-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.forum-header__badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #d4be8f;
+  background: #f7f1de;
+  color: #6d5521;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.forum-header__scene {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 6;
+  margin-top: 14px;
+  border: 1px solid #d4dde4;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #edf3f8;
+}
+
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.panel--hero {
+  background:
+    linear-gradient(140deg, #f4f7fa 0%, #ebeff4 70%),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 12px,
+      rgba(16, 50, 79, 0.02) 12px,
+      rgba(16, 50, 79, 0.02) 24px
+    );
+}
+
+.panel h1,
+.panel h2,
+.panel h3 {
+  font-family: var(--font-heading), serif;
+  color: var(--navy);
+  margin-top: 0;
+}
+
+.panel p {
+  margin: 8px 0;
+}
+
+.panel__header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.panel__muted {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.panel__feedback {
+  color: var(--yes);
+  font-weight: 700;
+}
+
+.panel__error {
+  color: var(--no);
+  font-weight: 700;
+}
+
+.wallet-panel {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px;
+  background: #f8fbfc;
+  margin-bottom: 12px;
+}
+
+.wallet-panel__actions,
+.wallet-panel__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.wallet-panel__address {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px dashed #b5c3d0;
+  font-weight: 700;
+}
+
+.input {
+  width: 100%;
+  min-height: 108px;
+  border: 1px solid #bcc8d1;
+  border-radius: 10px;
+  padding: 10px;
+  resize: vertical;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--ink);
+  background: #ffffff;
+}
+
+.btn {
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid #9fb0be;
+  background: #f1f5f8;
+  color: var(--navy);
+  padding: 0 14px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  margin-top: 10px;
+  width: 100%;
+  border-color: #0f3859;
+  background: linear-gradient(180deg, #1e4f77 0%, #143c5c 100%);
+  color: #f4f8fb;
+}
+
+.btn--ghost {
+  background: #f9fbfd;
+}
+
+.btn--yes {
+  border-color: #2f705c;
+  background: var(--yes-bg);
+  color: var(--yes);
+}
+
+.btn--no {
+  border-color: #b75866;
+  background: var(--no-bg);
+  color: var(--no);
+}
+
+.proposal-list {
+  display: grid;
+  gap: 10px;
+}
+
+.proposal-card {
+  border: 1px solid #c4cfd8;
+  border-radius: 14px;
+  background:
+    linear-gradient(165deg, #ffffff 0%, #f4f8fa 100%),
+    repeating-linear-gradient(
+      90deg,
+      rgba(16, 50, 79, 0.03),
+      rgba(16, 50, 79, 0.03) 1px,
+      transparent 1px,
+      transparent 14px
+    );
+  padding: 12px;
+}
+
+.proposal-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.proposal-card__link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 9px;
+  border: 1px solid #adbbc7;
+  font-weight: 700;
+  color: var(--info);
+}
+
+.proposal-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.proposal-title {
+  margin: 10px 0 8px;
+}
+
+.vote-panel {
+  border-top: 1px solid #d7dee6;
+  padding-top: 10px;
+}
+
+.vote-panel__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vote-panel__actions {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.status-chip {
+  min-height: 30px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.status-chip--neutral {
+  background: #edf2f6;
+  color: #4a6075;
+  border-color: #d0d9e2;
+}
+
+.status-chip--success {
+  background: var(--yes-bg);
+  color: var(--yes);
+  border-color: #afcfbf;
+}
+
+.status-chip--danger {
+  background: var(--no-bg);
+  color: var(--no);
+  border-color: #e6b2b9;
+}
+
+.status-chip--info {
+  background: var(--info-bg);
+  color: var(--info);
+  border-color: #b7cadf;
+}
+
+.rule-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: #3c4e5f;
+  line-height: 1.45;
+}
+
+.rule-list li {
+  margin-bottom: 8px;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100%;
+  max-width: 560px;
+  background: rgba(241, 245, 248, 0.95);
+  border-top: 1px solid #c4cfda;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8px;
+  backdrop-filter: blur(8px);
+}
+
+.bottom-nav__item {
+  min-height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #43617c;
+  font-weight: 700;
+}
+
+.bottom-nav__item.is-active {
+  background: #dbe7f1;
+  color: #143c5c;
+}
+
+@media (max-width: 420px) {
+  .forum-header h1 {
+    font-size: 29px;
+  }
+
+  .proposal-card h3 {
+    font-size: 18px;
+  }
+}
