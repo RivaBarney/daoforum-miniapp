@@ -12,7 +12,7 @@ export const TALENT_VERIFICATION_META =
 export const DAOFORUM_APP_ID = "110";
 // DAOFORUM_APP_ID_PLACEHOLDER
 
-export const BUILDER_CODE = "BUILDER_CODE_PLACEHOLDER";
+export const BUILDER_CODE = "bc_ru2mh55t";
 // 这里替换为真实 Builder Code
 
 export const GITHUB_TOKEN_SENTINEL = "GITHUB_TOKEN_PLACEHOLDER";
