@@ -113,3 +113,11 @@ Typical areas to look for include:
 - Static assets
 - Build or development scripts
 - Documentation files
+
+## Development Notes
+
+Keep changes small and focused.
+
+Document important decisions when adding new functionality.
+
+Prefer clear naming for files, components, and configuration.
