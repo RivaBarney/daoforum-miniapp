@@ -29,3 +29,10 @@ https://github.com/RivaBarney/daoforum-miniapp.git
 To clone the repository:
 
 ```bash
+git clone https://github.com/RivaBarney/daoforum-miniapp.git
+cd daoforum-miniapp
+```
+
+## Prerequisites
+
+Before running the project, make sure you have the required development tools installed for the stack used in the repository.
