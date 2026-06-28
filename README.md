@@ -44,3 +44,11 @@ Common requirements may include:
 - A package manager such as npm, pnpm, or yarn, if a package manifest is present
 
 Check the files in the repository to confirm the exact requirements.
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RivaBarney/daoforum-miniapp.git
+cd daoforum-miniapp
