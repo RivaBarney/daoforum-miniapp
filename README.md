@@ -21,3 +21,11 @@ Because the repository may evolve over time, use this README as a starting point
 - Designed to remain small and focused.
 
 ## Repository
+
+The project is hosted on GitHub:
+
+https://github.com/RivaBarney/daoforum-miniapp.git
+
+To clone the repository:
+
+```bash
