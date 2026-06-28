@@ -144,3 +144,11 @@ If installation fails, verify that the correct package manager is being used.
 If a command is missing, inspect the project configuration for available scripts.
 
 If the app does not start, check environment requirements and local configuration.
+
+If dependencies appear outdated, update them carefully and test the project after each change.
+
+## License
+
+No license information was provided in the original README.
+
+If a license file exists in the repository, refer to that file for the project license.
