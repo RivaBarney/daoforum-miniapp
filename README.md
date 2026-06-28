@@ -36,3 +36,11 @@ cd daoforum-miniapp
 ## Prerequisites
 
 Before running the project, make sure you have the required development tools installed for the stack used in the repository.
+
+Common requirements may include:
+
+- Git
+- Node.js, if the project uses JavaScript or TypeScript
+- A package manager such as npm, pnpm, or yarn, if a package manifest is present
+
+Check the files in the repository to confirm the exact requirements.
