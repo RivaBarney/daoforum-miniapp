@@ -136,3 +136,11 @@ Before submitting changes:
 - Run any available checks or tests.
 - Keep formatting consistent with the existing code.
 - Include a clear description of the change.
+
+## Troubleshooting
+
+If installation fails, verify that the correct package manager is being used.
+
+If a command is missing, inspect the project configuration for available scripts.
+
+If the app does not start, check environment requirements and local configuration.
