@@ -60,3 +60,10 @@ For npm:
 
 ```bash
 npm install
+```
+
+For pnpm:
+
+```bash
+pnpm install
+```
