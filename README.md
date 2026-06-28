@@ -121,3 +121,11 @@ Keep changes small and focused.
 Document important decisions when adding new functionality.
 
 Prefer clear naming for files, components, and configuration.
+
+Update this README when setup or usage steps change.
+
+Avoid committing generated files unless they are intentionally required by the project.
+
+## Contributing
+
+Contributions can be made by forking the repository and opening a pull request.
