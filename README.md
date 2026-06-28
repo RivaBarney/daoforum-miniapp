@@ -89,3 +89,12 @@ npm run
 Then run the appropriate development command.
 
 Common examples include:
+
+```bash
+npm run dev
+```
+
+or:
+
+```bash
+npm start
