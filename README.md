@@ -75,3 +75,11 @@ yarn install
 ```
 
 Use the package manager that matches the lockfile included in the repository.
+
+## Usage
+
+After setup, review the available scripts in the project configuration.
+
+If the project includes a `package.json`, list the available scripts with:
+
+```bash
