@@ -129,3 +129,10 @@ Avoid committing generated files unless they are intentionally required by the p
 ## Contributing
 
 Contributions can be made by forking the repository and opening a pull request.
+
+Before submitting changes:
+
+- Make sure the project installs correctly.
+- Run any available checks or tests.
+- Keep formatting consistent with the existing code.
+- Include a clear description of the change.
