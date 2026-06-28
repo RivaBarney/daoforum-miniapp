@@ -67,3 +67,11 @@ For pnpm:
 ```bash
 pnpm install
 ```
+
+For yarn:
+
+```bash
+yarn install
+```
+
+Use the package manager that matches the lockfile included in the repository.
