@@ -13,3 +13,11 @@ The project is intended to provide a focused foundation for building, testing, a
 Because the repository may evolve over time, use this README as a starting point and refer to the project files for the exact implementation details.
 
 ## Features
+
+- Minimal project structure for a mini app.
+- Clear repository identity and source location.
+- Suitable base for forum-related interface development.
+- Easy to clone, inspect, and extend.
+- Designed to remain small and focused.
+
+## Repository
