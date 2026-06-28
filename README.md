@@ -52,3 +52,11 @@ Clone the repository:
 ```bash
 git clone https://github.com/RivaBarney/daoforum-miniapp.git
 cd daoforum-miniapp
+```
+
+Install dependencies if a package manifest is available.
+
+For npm:
+
+```bash
+npm install
