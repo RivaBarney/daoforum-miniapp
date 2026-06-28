@@ -105,3 +105,11 @@ If these commands are not available, check the repository files for the correct 
 ## Project Structure
 
 The exact structure may change as the project develops.
+
+Typical areas to look for include:
+
+- Source files for the mini app interface
+- Configuration files
+- Static assets
+- Build or development scripts
+- Documentation files
