@@ -98,3 +98,10 @@ or:
 
 ```bash
 npm start
+```
+
+If these commands are not available, check the repository files for the correct entry point.
+
+## Project Structure
+
+The exact structure may change as the project develops.
