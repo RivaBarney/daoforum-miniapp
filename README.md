@@ -83,3 +83,9 @@ After setup, review the available scripts in the project configuration.
 If the project includes a `package.json`, list the available scripts with:
 
 ```bash
+npm run
+```
+
+Then run the appropriate development command.
+
+Common examples include:
